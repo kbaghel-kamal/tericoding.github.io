@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* question page css */
+.show{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+    
+}
+.show button{
+   
+
+    position: relative;
+    padding: 5px 8px;
+    background-color: rgb(169, 226, 94);
+    border-radius: 8px;
+    outline: none;
+    
+    
+}
+.show button:hover{
+    background-color: grey;
+    color: white;
+    box-shadow: 2px  5px 3px rgb(111, 111, 111);
+}
+.question{
+    display: flex;
+    justify-content: center;
+border: 2px solid black;
+border-radius: 8px;
+margin: 5px;
+font-size: 2rem;
+width: 70%;
+position: relative;
+margin-left: 65px;
+color: blue;
+
+}
+
+.question_Number{
+    position: absolute;
+   display: flex;
+   justify-content:left;
+   justify-items: center;
+   align-items: center;
+   font-size: 2rem;
+   margin-left: 10px;
+  
+   
+   /* margin: 15px; */
+   
+}
+#maindiv{
+    margin-bottom: 50px;
+}
+
+.btn{
+   position: absolute;
+   display: flex;
+   align-items: center;
+   /* width: 100%; */
+   left: 75vw;
+   text-align: center;
+  
+}
+.btn button{
+    padding:8px 16px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color: burlywood;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 8px;
+   
+}
+
+.btn button:hover{
+    box-shadow: 2px  5px 3px rgb(111, 111, 111);
+ 
+}
+.btn button a{
+    list-style: none;
+    text-decoration: none;
+    color: red;
+    font-size: 1rem;
+}
+.btn button a:hover{
+    color: #fff;
+}
+
+/* question page css end here */
+
+
+
+/* navbar */
+#navbar{
+  position: sticky;
+  top: 0;
+    display: flex;
+    z-index: 100;
+    align-items: center;
+  
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    
+}
+
+
+
+#logo{
+  
+    display: flex;
+    margin: auto;
+}
+
+.logo_text{
+    display: flex;
+    
+    margin-left:5px;
+    letter-spacing: 5px;
+
+    font-size: 2rem;
+    color: #fff;
+}
+ #list-items{
+    margin-right: 50px;
+}
+.list-items ul{
+    display: flex;
+}
+
+.list-items ul li{
+    font-size: 1.5rem;
+    list-style: none;
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+  color:#fff;
+  }
+  /* .list-items ul li a {
+      text-decoration: none;
+      list-style: none;
+    color:#fff;
+     
+  } */
+  /*
+  #list-items ul li a:hover{
+      color: rgb(230, 230, 146);
+  } */
+
+
+  /* footer */
+
+  footer{
+       z-index: 100000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 40px;
+      width: 100%;
+      position:fixed;
+     
+      bottom: 0;
+      background-color: rgb(230, 230, 146);
+      font-size: 1.2rem;
+      /* color: #fff; */
+      
+  }
+ 
